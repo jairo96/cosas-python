@@ -6,6 +6,9 @@ cf = currentframe()
 # List Comprehensions
 printColor('\nBienvenido a List Comprehensions', 'title', '\n\n')
 
+printColor('\nBuscar definición y demás', 'subtitle', '\n\n', cf.f_lineno)
+
+
 printColor('\nList Comprehensions', 'subtitle', '\n\n', cf.f_lineno)
 printColor('\nCambiar a mayúsculas los valores de una lista:', 'text', '\n\n')
 
@@ -72,3 +75,7 @@ result = []
 result = [num + num for num in range(6) if num % 2 == 0]
 printColor("\t[num + num for num in range(6) if num % 2 == 0]", 'code', '\n')
 printColor(f"\t{result}", 'result', '\n\n')
+
+
+
+
